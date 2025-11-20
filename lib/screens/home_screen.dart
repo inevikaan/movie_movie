@@ -16,8 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
         title: Text('🎬 Movie Explorer',
-          style: TextStyle(fontSize: 32,fontWeight: FontWeight.bold),),
+          style: TextStyle(fontSize: 33,fontWeight: FontWeight.bold),),
       ),
     );
   }
