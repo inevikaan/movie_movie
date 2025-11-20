@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
         title: Text('🎬 Movie Explorer',
-          style: TextStyle(fontSize: 33,fontWeight: FontWeight.bold),),
+          style: TextStyle(fontSize: 31,fontWeight: FontWeight.bold),),
       ),
     );
   }
